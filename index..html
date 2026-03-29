@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brabos Burguer</title>
+<style>
+body {
+    background: linear-gradient(to right, #094d4d, #2e5f6eea);
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    width: 500px;
+    background: linear-gradient(to right, #2f4f4f, #000);
+}
+
+.titulo {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(234, 234, 241);
+    font-size: 50px;
+    text-align: left;
+}
+
+.img {
+    height: 200px;
+    border-radius: 100px;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 550px;
+}
+
+.whatsapp a {
+    display: inline-block;
+    background: linear-gradient(to right, #25D366, #128C7E);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.whatsapp a:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+.topo {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.conteiner2 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #128C7E;
+    padding: 10px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.5);
+}
+
+.card img {
+    height: 120px;
+    border-radius: 15px;
+    margin-top: 5px;
+    object-fit: cover;
+}
+
+.card h1 {
+    margin: 5px 0;
+    font-size: 22px;
+}
+
+.card h2 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    line-height: 1.2;
+}
+</style>
+</head>
+
+<body>
+<div class="topo">
+    <div class="conteiner">
+        <div class="item">
+            <h1 class="titulo">Brabos Burguer</h1>
+            <img class="img" src="https://99hudsonliving.com/wp-content/uploads/2020/01/Picture1.png">
+        </div>
+
+        <div class="whatsapp">
+            <a href="https://wa.me/5511999999999">📲 Pedir pelo WhatsApp</a>
+        </div>
+    </div>
+
+    <div class="conteiner2">
+        <div class="coluna">
+            <div class="card">
+                <h1>X Burguer</h1>
+                <h2>Um X Burguer clássico de pão, carne e queijo, suculento e saboroso.</h2>
+                <img src="https://guiadacozinha.com.br/wp-content/uploads/2014/01/hamburguer.jpg">
+            </div>
+            <div class="card">
+                <h1>X Bacon</h1>
+                <h2>Delicioso X Bacon com queijo derretido e fatias de bacon crocante.</h2>
+                <img src="https://th.bing.com/th/id/OIP.ef6qkH2DF8gNOY1qx8gS1wHaE8?w=256&h=180&c=7&r=0&o=7&pid=1.7&rm=3">
+            </div>
+        </div>
+
+        <div class="coluna">
+            <div class="card">
+                <h1>X Salada</h1>
+                <h2>O X Salada é uma ótima opção para quem está de dieta, com nossa saborosa salada caseira.</h2>
+                <img src="https://www.sabornamesa.com.br/media/k2/items/cache/b4cd45b9dcdf28778c9b938159445747_XL.jpg">
+            </div>
+            <div class="card">
+                <h1>X Frango</h1>
+                <h2>O X Frango é suculento, com filé de frango temperado e pão fresquinho.</h2>
+                <img src="https://www.cenariomt.com.br/wp-content/uploads/2022/09/pexels-chicken-mackay-5474836.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
